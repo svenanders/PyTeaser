@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
 from collections import Counter
 from math import fabs
 from re import split as regex_split, sub as regex_sub
@@ -58,7 +61,19 @@ stopWords = [
     "yung", "yun", "2", "3", "4", "5", "6", "7", "8", "9", "0", "time",
     "january", "february", "march", "april", "may", "june", "july",
     "august", "september", "october", "november", "december",
-    "philippine", "government", "police", "manila"
+    "januar", "februar", "mars", "april", "mai", "juni", "juli",
+    "august", "september", "oktober", "november", "desember",
+    "at", "av", "de", "den", "der", "det", "du", "en", "er", "et", "for", "fra",
+    "før", "med", "og", "om", "over", "på", "som", "til", "ved", "år", "alle", "bare",
+    "ble", "bort", "bra", "da", "deg", "dem", "denne", "dere", "deres", "det",
+    "dette", "din", "disse", "dit", "ditt", "eller", "ene", "enn", "er", "et", "ett",
+    "etter", "for", "fram", "først", "få", "god", "gå", "ha", "han", "hans", "har", "her",
+    "hit", "hun", "hva", "hvem", "hver", "ikke", "inn", "ja", "jeg", "kan", "kom",
+    "kun", "kunne", "lage", "lang", "lik", "like", "man", "mer", "min", "mot", "mye",
+    "må", "måte", "ned", "nei", "noe", "noen", "ny", "nå", "når", "også", "opp", "oss",
+    "seg", "selv", "si", "siden", "sin", "sine", "sist", "skal", "skulle", "slik",
+    "som", "så", "sånn", "tid", "til", "under", "ut", "uten", "var", "ved", "vi",
+    "vil", "vite", "vår", "å", "dei", "di", "då", "eg"
 ]
 ideal = 20.0
 
