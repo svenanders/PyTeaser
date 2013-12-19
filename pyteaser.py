@@ -73,7 +73,8 @@ stopWords = [
     "må", "måte", "ned", "nei", "noe", "noen", "ny", "nå", "når", "også", "opp", "oss",
     "seg", "selv", "si", "siden", "sin", "sine", "sist", "skal", "skulle", "slik",
     "som", "så", "sånn", "tid", "til", "under", "ut", "uten", "var", "ved", "vi",
-    "vil", "vite", "vår", "å", "dei", "di", "då", "eg"
+    "vil", "vite", "vår", "å", "dei", "di", "då", "eg", "dagbladet", "Dagbladet",
+    "Aftenposten"
 ]
 ideal = 20.0
 
@@ -102,7 +103,7 @@ def Summarize(title, text):
     keys = keywords(text)
     titleWords = split_words(title)
 
-    #score setences, and use the top 5 sentences
+    #score sentences, and use the top 5 sentences
     ranks = score(sentences, titleWords, keys).most_common(5)
     for rank in ranks:
         summaries.append(rank[0])
