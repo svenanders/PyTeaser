@@ -73,8 +73,7 @@ stopWords = [
     "må", "måte", "ned", "nei", "noe", "noen", "ny", "nå", "når", "også", "opp", "oss",
     "seg", "selv", "si", "siden", "sin", "sine", "sist", "skal", "skulle", "slik",
     "som", "så", "sånn", "tid", "til", "under", "ut", "uten", "var", "ved", "vi",
-    "vil", "vite", "vår", "å", "dei", "di", "då", "eg", "dagbladet", "Dagbladet",
-    "Aftenposten", "(Dagbladet):"
+    "vil", "vite", "vår", "å", "dei", "di", "då", "eg"
 ]
 ideal = 20.0
 
